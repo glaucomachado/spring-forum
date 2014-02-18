@@ -5,6 +5,7 @@ import java.util.List;
 public interface DAOBase<T> {
 	
 	//Teste: funcionou, Vini!
+	// Tô vendo !!!
 	//Alterando a partir da interface web
 	public List<T> list(int offset, int max);
 	
