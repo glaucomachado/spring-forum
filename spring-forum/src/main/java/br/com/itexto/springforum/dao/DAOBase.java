@@ -4,6 +4,7 @@ import java.util.List;
 
 public interface DAOBase<T> {
 	
+	//Teste
 	public List<T> list(int offset, int max);
 	
 	public void persistir(T objeto);
